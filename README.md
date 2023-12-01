@@ -38,17 +38,55 @@ If the output is 1, then the led glows.
 Program:
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: SANJAY.M
+RegisterNumber:  23013084
 */
+### half_adder:
+```python
+module half_adder(a,b,s,c);
+output s,c;
+input a,b;
+assign s=a^b;
+assign c=a&b;
+endmodule
+```
+
+### full_adder:
+```python
+module full_adder(A,B,cin,S,cout);
+input A,B,cin;
+output S,cout;
+assign S=A^B^cin;
+assign cout=(A&B)| (B&cin)| (A&cin);
+endmodule
+```
 Logic symbol & Truthtable
 RTL realization
 
 ### Output:
-### RTL
+half_adder:
+![image](https://github.com/sanjayofficial2005/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148048602/bd1b1905-19fb-4a51-9ca6-e06fa655c4d5)
+full_adder:
+![image](https://github.com/sanjayofficial2005/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148048602/58f6d2e9-e0aa-465c-a8b5-e27eb467d8d4)
+
+
+
+### RTL:
+half_adder:
+![Screenshot from 2023-12-01 09-29-20](https://github.com/sanjayofficial2005/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148048602/0f4ddac7-9e83-4554-be7f-abdb87dcf6a5)
+full_adder:
+![Screenshot from 2023-12-01 09-29-36](https://github.com/sanjayofficial2005/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148048602/18bc50cc-40be-46cd-ad15-099a1e331ed0)
+
+
 ### TIMING DIAGRAM
 
 
-### TRUTH TABLE 
+### TRUTH TABLE :
+half_adder:
+![Screenshot from 2023-12-01 09-28-53](https://github.com/sanjayofficial2005/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148048602/df53efb4-96f9-4fe6-ac50-880aa2220c8b)
+full_adder:
+![Screenshot from 2023-12-01 09-29-03](https://github.com/sanjayofficial2005/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148048602/78b375b2-0a33-4942-9fbb-98bad7ad8af7)
+
 
 ### Result:
+The program Haly adder and full adder executed succesfully.
