@@ -82,9 +82,9 @@ full_adder:
 
 
 ### TRUTH TABLE :
-half_adder:
+# half_adder:
 ![Screenshot from 2023-12-01 09-28-53](https://github.com/sanjayofficial2005/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148048602/df53efb4-96f9-4fe6-ac50-880aa2220c8b)
-full_adder:
+# full_adder:
 ![Screenshot from 2023-12-01 09-29-03](https://github.com/sanjayofficial2005/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/148048602/78b375b2-0a33-4942-9fbb-98bad7ad8af7)
 
 
